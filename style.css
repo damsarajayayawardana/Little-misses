@@ -13,6 +13,9 @@
     position: relative;
 }
 
+h1{
+    color: antiquewhite;
+}
 
 nav{
     display: flex;
