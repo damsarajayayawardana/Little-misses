@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Little Misses</title>
+        <link rel="stylesheet" href="about.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@700&family=Supermercado+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    </head>
+
+        <body>
+
+
+       <!-- Main Section -->
+     
+        <section class="header">
+            <nav>
+
+                <a href="about.html"><img src="images/littlemisses retouched.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" aria-hidden="true" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT US</a></li>
+                        <li><a href="">COLLECTION</a></li>
+                        <li><a href="https://www.instagram.com/little___misses/">INSTAGRAM</a></li>
+                        <li> <a href="#" class="fas fa-shopping-cart"></a></li>
+                        
+                        <!-- <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        </div> -->
+                    </ul>
+
+                </div>
+                <i class="fa fa-bars" aria-hidden="true" onclick="showmenu()"></i>
+            </nav>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top">⌃</button>
+            
+        </section>
+
+        <h1 class="color" style="text-align:center; padding-top: 100px; text-transform: uppercase;"> About Us</h1>       
+        <p class="align" style="text-align: center; padding-top: 20px; padding-bottom: 60px;"> "Welcome to LITTLE MISSES, where you’ll find gorgeous little girls' dresses and baby girl clothes.
+            LITTLE MISSES is a baby and toddler girls' wear label proudly owned and designed in Sri Lanka. The journey of the LITTLE MISSES brand began back in 2020. The LITTLE MISSES brand was born when we discovered the children's clothing industry was severely lacking in fashionable, functionable options. When it comes to our children, we would like to see them dressed nicely and looking cute. but we also want to take care of our budget. This is why LITTLE MISSES is here.
+            All pieces and collections are designed with love and care. At LITTLE MISSES, we take pride in our finer details, high quality fabric and we do not compromise on quality. Our brand promises cuteness and quality at great prices that make your baby happy.
+            When you purchase at LITTLE MISSES, you can expect a smooth and pleasant experience, which is a hallmark of Sri Lankan hospitality. You will leave with high-quality clothes that have been lovingly created and provided with a smile and enthusiasm that is uniquely Sri Lankan. If you have any concerns about our designs, please contact us or visit our store for a more personalized experience.
+            So take a look around at our gorgeous little girl’s dresses and baby girl clothes, we hope you enjoy your shopping experience at LITTLE MISSES.
+        ." </p>
+
+
+
+
+
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks")
+            function showmenu(){
+                navLinks.style.right = "0";
+            }
+        
+            function hidemenu(){
+                navLinks.style.right = "-300";
+            }
+        
+            mybutton = document.getElementById("myBtn");
+        
+        
+            window.onscroll = function() {scrollFunction()};
+        
+            function scrollFunction() 
+                {
+                if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                 mybutton.style.display = "block";
+                } else {
+                 mybutton.style.display = "none";
+                }
+                }
+        
+        
+            function topFunction() {
+                document.body.scrollTop = 0; 
+                document.documentElement.scrollTop = 0; 
+            }
+        
+        </script>
+        
+        </body>
+        
+        </html>
+        
+        
+        </section>
+        <!-- footer -->
+        <section class="footer">
+        
+        <h1>Little Misses</h1>
+        <p>Stylish high-quality clothing for your little girl</p>
+        <div class="icons">
+        <i class="fab fa-facebook" aria-hidden="true"></i>
+        <i class="fab fa-twitter" aria-hidden="true"></i>
+        <i class="fab fa-instagram" aria-hidden="true"></i>
+        <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </div>
+        
+        
+        <div class="icon">
+            <i class="far fa-copyright" aria-hidden="true">copyright 2022</i><p><br>All Rights Reserved </p>    
+        </div>
+        
